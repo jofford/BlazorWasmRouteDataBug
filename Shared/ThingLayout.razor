@@ -1,0 +1,12 @@
+﻿@inherits LayoutComponentBase
+@layout MainLayout
+
+<h1>Layout Title</h1>
+
+<a href="/things">Go Back</a>
+
+@Body
+
+@code {
+    [CascadingParameter] RouteData RouteData { get; set; }
+}

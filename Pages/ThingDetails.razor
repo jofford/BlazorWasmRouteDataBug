@@ -1,0 +1,8 @@
+﻿@page "/things/{thingId:guid}"
+@layout ThingLayout
+
+<p>Thing details here</p>
+
+@code {
+	[Parameter] public Guid ThingId { get; set; }	
+}
